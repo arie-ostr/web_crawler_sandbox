@@ -17,6 +17,7 @@ def get_chromedriver():
     """
     #logger.debug("Getting chromedriver")
     chrome_options = Options()
+    chrome_options.add_argument("--headless")
     chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
     chrome_options.add_experimental_option("useAutomationExtension", False)
     service = Service(ChromeDriverManager().install())
