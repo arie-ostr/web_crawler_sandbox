@@ -1,9 +1,5 @@
-# WIKIPEDIA crawler
+# Wiki crawler
 
-made aimlessly to review aws and ci tools for QA work 
-loose goal is creating some sort of pipeline involving langchain and telegram. 
-possibly involving a complete aws(+gcp) architecture 
-This will run off GH actions, and possibly a jenkins machine 
-If I create some kind of ML model off the data, such using wordcounts or some sort of embedding it's going to be awesome. 
+I aim to review AWS and CI tools for QA work with a loose goal of creating a pipeline involving LangChain and Telegram, possibly encompassing a complete AWS (and GCP) architecture. This pipeline will run off GitHub Actions and possibly a Jenkins machine. If I create some kind of ML model using the data, such as word counts or embeddings, it will be fantastic.
 
-It doesn't have to be amazing, but it should cover most of the basics until It gets messy.
+It doesn't need to be perfect but should cover most of the basics until it gets complex.
